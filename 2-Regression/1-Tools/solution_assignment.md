@@ -19,6 +19,8 @@
 
 ---
 
+
+
 ## Descriptive Paragraph (For Submission)
 
 > To analyze the relationship between exercise and physiological metrics using Scikit-learn's Linnerud dataset, I start by loading the dataset and separating the exercise features from the physiological targets. To evaluate the relationship between situps and waistline, I select 'Situps' as the independent variable ($X$) and 'Waist' as the target variable ($y$). Next, I split the data into training and testing sets using `train_test_split()`, instantiate a `LinearRegression` model, and fit it on $X_{train}$ and $y_{train}$. After generating predictions for $X_{test}$, I plot a scatter plot of the data points alongside the fitted regression line to visualize the trend. This exact pipeline—feature isolation, train-test splitting, model fitting, prediction, and plotting—can then be repeatedly applied to examine the other exercise and physiological variable pairs in the dataset, such as Chins or Jumps against Weight or Pulse.
